@@ -1,0 +1,52 @@
+$blue: #4d78cc;
+$dark-blue: #283e69;
+$white-text: #ffffff;
+
+$font-size-large: 2em;
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: $blue;
+    color: $white-text;
+    padding: 5px 15px 5px 15px;
+
+    a, a:visited {
+        color: $white-text;
+        text-decoration: none;
+    }
+
+    #welcome {
+        font-size: $font-size-large;
+    }
+
+    .nav-button {
+        margin-left: 20px;
+        font-weight: bold;
+        border-bottom: 2px white solid;
+        padding: 8px;
+    }
+    .nav-button:hover {
+        background-color: $dark-blue;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+}
+
+.body {
+    padding: 10px;
+}
+
+#redux-sample {
+    button {
+        margin-right: 10px;
+    }
+}
