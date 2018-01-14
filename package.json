@@ -9,6 +9,7 @@
     "url": "https://github.com/tihomirbz/react-redux-webpack-template"
   },
   "scripts": {
+    "build": "webpack",
     "start": "webpack-dev-server"
   },
   "devDependencies": {
